@@ -14,7 +14,7 @@
   <link href="https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:wght@300&display=swap" rel="stylesheet">
 
   <!-- CSS link -->
-  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="assets/css/style.css">
 
   <style>
     body {
@@ -33,65 +33,76 @@
 </head>
 
 <body>
-  
+  <!-- Header section -->
   <div class="container">
     <div class="row">
-      <div class="col-md-3">
-        Rachel
-      </div>
-      
-      <!-- Nav Bar -->
-      <div class="col-md-9">
-        <div class="row">
-        <ul class="nav justify-content-end">
-          <li class="nav-item">
-            <a class="nav-link active" href="index.html">About</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="portfolio.html">Portfolio</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="contact.htmL">Contact</a>
-          </li>
-        </ul>
+      <div class="col">
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+          <a class="navbar-brand" href="index.html">Rachel</a>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupoortedContent"
+            aria-controls="navBarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+
+          <div class=“collapse navbar-collapse” id=“navbar”>
+            <ul class="navbar-nav ml-auto mt-2 mt-lg-0">
+              <li class=“nav-item”>
+                <a class=“nav-link” href=“contact.html”>Contact</a>
+              </li>
+              <li class=“nav-item”>
+                <a class=“nav-link” href=“portfolio.html”>Portfolio</a>
+              </li>
+              <li class=“nav-item active”>
+                <a class=“nav-link” href=“index.html”>About</a>
+              </li>
+            </ul>
+          </div>
       </div>
     </div>
+    </nav>
+  </div>
 
-<!-- image card -->
+  <!-- About Me and image -->
+  <div id="main">
+    <div class="row">
+      <div class="col-md-6">
+        <div class="about">
+          <h1>About Me</h1>
+          <hr>
+          <img src="assets/images/rachel.jpeg" width="200px" ; height="200px" alt="Rachel Lauren" id="abbotsford">
 
-  <div class="card mb-3" style="max-width: 400px;">
-    <div class="row no-gutters">
-      <div class="col-md-5">
-        <img src="assets/images/rachel.jpeg" class="card-img" alt="Rachel Lauren">
-      </div>
+          <div id="about">
+            <p> "It was never easy for me. I was born a poor black child. I remember the
+              days sitting on the porch with my family, singing and dancing, down in Mississippi."
+              <br> -Navin R. Johnson
+              <br>The Jerk
+              <br>My name is Rachel Williams. I was born on Guam. I'm 36 years young. I've lived in Florida since
+              1994. I
+              graduated from
+              Seminole High School in 2002. I attended Seminole Community College, now known as, Seminole State
+              College,
+              majoring in elementary education. After having some exposure to kindergarten aged children, I came to
+              realize, that was not the best career choice for me.
+              <br>I previously worked in customer service as an Employee Benefits Administrator. I left that job
+              after
+              nine
+              years and started as a software QA analyst. The company that I worked for wanted all
+              of their QA Analysts to learn automation, and I was bit by the coding bug. I decided to take this
+              course
+              so
+              that I could learn how to write automated tests and eventually look into becoming an SDET.
+            </p>
 
-   <!-- About me section -->
-
-
-      <div class="col-md-7">
-        <div class="card-body">
-          <h2 class="card-title">About Me</h2>
-          <p class="card-text" style="font-size: medium;"> "It was never easy for me. I was born a poor black child. I remember the
-            days sitting on the porch with my family, singing and dancing, down in Mississippi."
-            <br> -Navin R. Johnson
-            <br>The Jerk
-            <br>My name is Rachel Williams. I was born on Guam. I'm 36 years young. I've lived in Florida since 1994. I
-            graduated from
-            Seminole High School in 2002. I attended Seminole Community College, now known as, Seminole State College,
-            majoring in elementary education. After having some exposure to kindergarten aged children, I came to
-            realize, that was not the best career choice for me.
-          <br>I previously worked in customer service as a Employee Benefits Administrator. I left that job after nine
-            years and started as a software QA analyst. The company that I worked for wanted all
-            of their QA Analysts to learn automation, and I was bit by the coding bug. I decided to take this course so
-            that I could learn how to write automated tests and eventually look into becoming an SDET.
-           </p>
-       
           </div>
         </div>
- 
+      </div>
+    </div>
   </div>
-</div>
-</div>
+
 </body>
+
+<div class="footer">
+  <p>It took me forever, but I'm finally done!</p>
+</div>
 
 </html>
