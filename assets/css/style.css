@@ -1,3 +1,11 @@
+body {
+    font-family: "Open Sans Condensed";
+    font-size: 30px;
+    background-image: url(../images/pink_dust.png);
+  }
+
+
+
 #abbotsford {
    float: left;
    margin: 25px;
@@ -16,6 +24,8 @@
 }
 
 .footer {
+    position: relative; 
+    width: 100%;
     background-color: pink;
     border-color: hotpink;
     border-style: solid;
@@ -30,3 +40,11 @@
     background-color: white;
 
 }
+
+.thumbnail {
+    width: 200px;
+    height: 200px;
+    margin-top: 5px;
+    margin-left: 10px;
+}
+
