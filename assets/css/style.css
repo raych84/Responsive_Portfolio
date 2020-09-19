@@ -5,7 +5,7 @@ body {
   }
 
 
-
+/* About page */
 #abbotsford {
    float: left;
    margin: 25px;
@@ -23,19 +23,8 @@ body {
     margin: 80px 0;
 }
 
-.footer {
-    position: relative; 
-    width: 100%;
-    background-color: pink;
-    border-color: hotpink;
-    border-style: solid;
-    font-size: 15px;
-    text-align: center;
-}
 
 /* Portfolio page */
-
-
 #portfolio {
     background-color: white;
 
@@ -48,3 +37,21 @@ body {
     margin-left: 10px;
 }
 
+/* contact page */
+
+#contactCard {
+    background-color: white;
+ 
+}
+
+/* applies to all */
+
+.footer {
+    position: relative; 
+    width: 100%;
+    background-color: pink;
+    border-color: hotpink;
+    border-style: solid;
+    font-size: 15px;
+    text-align: center;
+}

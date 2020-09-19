@@ -17,7 +17,7 @@
     <link rel="stylesheet" href="assets/css/style.css">
 
 
-    <title>Rachel L Williams</title>
+    <title>Contact Rachel</title>
 
 </head>
 
@@ -51,98 +51,39 @@
         </div>
     </nav>
     <!-- Contact Card -->
-    
-        <hr>
-
-
-
-    <!--Card-->
-    <div class="card">
-
-        <!--Card content-->
-        <div class="card-body">
-
-            <!--Section heading-->
-            <h2 class="h1-responsive font-weight-bold text-center my-4">Contact</h2>
-            <!--Section description-->
-
+    <div id="contactCard">
+        <div class="container">
             <div class="row">
-
-                <!--Grid column-->
-                <div class="col-md-9 mb-md-0 mb-5">
-                    <form id="contact-form" name="contact-form" action="mail.php" method="POST">
-
-                        <!--Grid row-->
-                        <div class="row">
-
-                            <!--Grid column-->
-                            <div class="col-md-4">
-                                <div class="md-form mb-0">
-                                    <input type="text" id="name" name="name" class="form-control">
-                                    <label for="name" class="">Your name</label>
-                                </div>
-                            </div>
-                            <!--Grid column-->
-
-                            <!--Grid column-->
-                            <div class="col-md-4">
-                                <div class="md-form mb-0">
-                                    <input type="text" id="email" name="email" class="form-control">
-                                    <label for="email" class="">Your email</label>
-                                </div>
-                            </div>
-                            <!--Grid column-->
-
+                <div class="col-md-6">
+                    <h2>Contact</h2>
+                    <hr>
+                    <form>
+                        <div class="form-group">
+                            <label for="contactMe">Name</label>
+                            <input type="Name" class="form-control" id="exampleNameFormat" placeholder="Name">
                         </div>
-           
-
-                        <!--Grid row-->
-                        <div class="row">
-                            <div class="col-md-4">
-                                <div class="md-form mb-0">
-                                </div>
-                            </div>
+                        <div class="form-group">
+                            <label for="exampleInputEmail1">Email address</label>
+                            <input type="email" class="form-control" id="exampleInputEmail1"
+                                aria-describedby="emailHelp" placeholder="Enter email">
                         </div>
-              
 
-                        <!--Grid row-->
-                        <div class="row">
-
-                            <!--Grid column-->
-                            <div class="col-md-4">
-
-                                <div class="md-form">
-                                    <textarea type="text" id="message" name="message" rows="2"
-                                        class="form-control md-textarea"></textarea>
-                                    <label for="message">Your message</label>
-                                </div>
-
-                            </div>
+                        <div class="form-group">
+                            <label for="exampleFormControlTextarea1">Message</label>
+                            <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
                         </div>
-   
+                        <button type="submit" class="btn btn-primary">Submit</button>
 
                     </form>
 
-                    <div class="text-center text-md-left">
-                        <a class="btn btn-primary" onclick="document.getElementById('contact-form').submit();">Send</a>
-                    </div>
-                    <div class="status"></div>
+
                 </div>
-
-
-
             </div>
-
         </div>
-
-    
-
+    </div>
     <div class="footer">
         <p>It took me forever, but I'm finally done!</p>
     </div>
-    </div>
+
 </body>
-
-
-
 </html>
